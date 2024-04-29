@@ -1,0 +1,422 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope&display=swap");
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  font-family: "Manrope", sans-serif;
+}
+
+.bground {
+  background-color: black;
+}
+
+.virat {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  border-bottom: 1px solid rgb(92, 88, 88);
+  width: 100px;
+  padding: 5px;
+  font-size: 16px;
+}
+
+nav {
+  visibility: hidden;
+  overflow: hidden;
+}
+
+.yesh {
+  background: rgb(0, 9, 57);
+  background: linear-gradient(90deg, rgb(0, 9, 57) 0%, rgb(0, 9, 57) 100%);
+  position: fixed;
+  top: 0;
+  overflow: hidden;
+}
+.yesh div {
+  margin-top: 18px;
+  cursor: pointer;
+  border-bottom: 1px solid white;
+  font-size: 20px;
+}
+.yesh p {
+  height: 30px;
+}
+.yesh p i {
+  font-size: 30px;
+}
+.yesh p y {
+  display: none;
+}
+.yesh p:hover y {
+  display: inline;
+  cursor: pointer;
+}
+.yesh p:hover i {
+  display: none;
+  cursor: pointer;
+}
+.yesh p {
+  transition: all 0.9s ease-in;
+}
+.yesh p:after {
+  opacity: 0.5;
+  transition: all 0.9s ease-out;
+}
+.yesh p:hover {
+  transform: translateX(20px);
+}
+.yesh p:hover:after {
+  opacity: 1;
+  transform: perspective(400px) rotateY(0deg) scale(1);
+}
+.yesh .fa-solid.fa-bars {
+  display: none;
+}
+
+.yesh1 {
+  background: rgb(35, 70, 124);
+  background: linear-gradient(90deg, rgb(35, 70, 124) 0%, rgb(4, 4, 54) 100%);
+  width: 100%;
+  z-index: -99;
+  height: 4900px;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  left: 0%;
+}
+.yesh1 .yesh2 {
+  margin-top: 250px;
+}
+.yesh1 .cloud {
+  position: absolute;
+  top: 1%;
+  left: 48%;
+  width: 700px;
+  opacity: 0.6;
+}
+.yesh1 .resumebtn {
+  background-color: rgb(3, 4, 45);
+  width: 160px;
+  height: 50px;
+  padding: 1px;
+  margin-top: 30px;
+  color: white;
+  border-radius: 10px;
+  font-size: 22px;
+}
+.yesh1 .resumebtn:hover {
+  background-color: red;
+}
+.yesh1 .image {
+  width: 50px;
+}
+.yesh1 .typing {
+  margin-left: 250px;
+}
+.yesh1 .ui {
+  font-size: 30px;
+}
+.yesh1 #retype {
+  color: red;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 30px;
+}
+
+.box {
+  background: rgb(0, 0, 0);
+  background: linear-gradient(90deg, rgb(10, 40, 58) 43%, rgb(6, 12, 37) 79%);
+  opacity: 0.9;
+  width: 80%;
+  height: 770px;
+}
+.box .text1 {
+  padding-top: 150px;
+}
+.box .paara {
+  width: 250px;
+  margin-left: 50px;
+}
+.box .ring {
+  padding-left: 200px;
+  padding-top: 100px;
+  width: 450px;
+}
+
+.light1 {
+  position: absolute;
+  top: 25%;
+  left: 4%;
+}
+
+.container .recent {
+  margin-top: 100px;
+}
+.container .recent .work1 {
+  font-size: 35px;
+  width: 450px;
+}
+.container .projectimg {
+  width: 350px;
+  height: 200px;
+}
+.container .projectimg:hover {
+  transform: scale(90%, 90%);
+  cursor: pointer;
+}
+.container .projectimg1 {
+  width: 350px;
+  height: 200px;
+}
+.container .projectimg1:hover {
+  transform: scale(90%, 90%);
+  cursor: pointer;
+}
+
+.container .text3 {
+  margin-top: 100px;
+  line-height: 50px;
+  font-size: 50px;
+  background: -webkit-linear-gradient(rgb(136, 0, 255), rgb(255, 0, 43));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.container .text4 {
+  font-size: 40px;
+  color: white;
+  width: 600px;
+  line-height: 60px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.container .text5 {
+  width: 600px;
+  height: 50px;
+  text-align: justify;
+}
+.container .myimg {
+  margin-left: 50px;
+  margin-top: -50px;
+}
+.container .downloadcv {
+  background-color: rgb(3, 4, 45);
+  width: 180px;
+  height: 40px;
+  padding: 6px;
+  margin-top: 30px;
+  color: white;
+  border-radius: 5px;
+}
+.container .downloadcv:hover {
+  background-color: rgb(0, 252, 235);
+  color: rgb(0, 0, 0);
+}
+
+.yeshwanth {
+  background-color: rgba(23, 19, 46, 0.877);
+  width: 900px;
+  height: 42px;
+}
+.yeshwanth .coolor {
+  color: red;
+  width: 240px;
+  border-radius: 20px;
+  height: 40px;
+  font-size: 18px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-left: 45px;
+  background-color: antiquewhite;
+}
+.yeshwanth .leftt {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 18px;
+}
+.yeshwanth .yeah {
+  margin-top: 20px;
+}
+.yeshwanth .techskills {
+  width: 900px;
+}
+.yeshwanth .coolor:hover {
+  background-color: red;
+  color: white;
+  cursor: pointer;
+  border: 2px solid red;
+  padding: 5px;
+}
+.yeshwanth .htm {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 22px;
+  margin-top: 20px;
+}
+.yeshwanth .time {
+  position: absolute;
+  top: -231%;
+  left: 105%;
+}
+.yeshwanth .list {
+  width: 220px;
+}
+.yeshwanth .table {
+  height: 300px;
+  background-color: red;
+  text-align: center;
+}
+.yeshwanth .htimg {
+  width: 100px;
+}
+.yeshwanth .htimg1 {
+  width: 70px;
+}
+.yeshwanth .yeah {
+  width: 200px;
+}
+.yeshwanth .white {
+  background-color: rgb(255, 255, 255);
+  width: 900px;
+  height: 320px;
+}
+.yeshwanth .htmcenter {
+  margin-top: 10px;
+}
+.yeshwanth .color {
+  width: 200px;
+  height: 50px;
+  font-size: 5px;
+}
+.yeshwanth .large {
+  font-size: 22px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.yeshwanth .sma {
+  font-size: 18px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.yeshwanth .bag {
+  background-color: red;
+  width: 120px;
+  height: 40px;
+  color: white;
+  padding: 8px;
+  margin-left: 100px;
+}
+
+.box2 {
+  background: rgb(0, 0, 0);
+  background: linear-gradient(90deg, rgb(10, 40, 58) 43%, rgb(6, 12, 37) 79%);
+  opacity: 0.8;
+  width: 80%;
+  height: 570px;
+  margin-top: 450px;
+  position: relative;
+}
+.box2 .arr {
+  position: absolute;
+  top: 1%;
+  right: 2%;
+}
+.box2 .small {
+  position: absolute;
+  top: 15%;
+  left: -5%;
+}
+.box2 .av {
+  font-size: 70px;
+  width: 550px;
+  height: 50px;
+  color: white;
+  margin-top: 70px;
+}
+.box2 .bt {
+  margin-top: 180px;
+  margin-left: 50px;
+  padding: 10px;
+  width: 250px;
+  font-size: 30px;
+  border-radius: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.box2 .bt:hover {
+  cursor: pointer;
+}
+
+.container .big {
+  color: white;
+  text-align: left;
+}
+.container .small {
+  width: 550px;
+  height: 50px;
+  font-size: 18px;
+  color: white;
+  text-align: justify;
+}
+.container .colrful {
+  width: 600px;
+  height: 580px;
+  background: rgb(23, 53, 62);
+  background: linear-gradient(90deg, rgb(23, 47, 62) 43%, rgb(1, 12, 55) 79%);
+  opacity: 0.8;
+  margin-left: 55px;
+}
+.container .yesh5 {
+  height: 50px;
+}
+.container .yesh6 {
+  width: 400px;
+  height: 50px;
+  text-align: left;
+}
+.container .send {
+  background-color: red;
+  width: 200px;
+  height: 50px;
+  padding: 10px;
+  border: 1px solid rgb(0, 0, 17);
+  border-radius: 50px;
+  font-size: 18px;
+  color: white;
+}
+.container .send:hover {
+  background-color: skyblue;
+  cursor: pointer;
+  color: white;
+}
+.container .icon {
+  margin-top: 100PX;
+}
+.container .icon1 {
+  color: white;
+  background-color: rgb(3, 4, 45);
+  width: 80px;
+  border-radius: 5px;
+}
+.container .fon {
+  font-size: 22px;
+  margin-top: 10px;
+}
+
+.footer {
+  background: rgb(0, 9, 57);
+  background: linear-gradient(90deg, rgb(0, 9, 57) 0%, rgb(0, 9, 57) 100%);
+  width: 98.5%;
+  height: 100px;
+  z-index: -99;
+}
+.footer .foot {
+  margin-top: 30px;
+  margin-left: 160px;
+}
+.footer .copy {
+  color: white;
+}
+.footer .text6 {
+  border-right: solid blue;
+  cursor: pointer;
+  margin-left: 2px;
+  padding: 2px;
+}
+.footer .text6:hover {
+  opacity: 0.7;
+}
+.footer a {
+  text-decoration: none;
+  color: white;
+}/*# sourceMappingURL=style.css.map */

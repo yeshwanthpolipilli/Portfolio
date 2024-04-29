@@ -1,0 +1,483 @@
+@media only screen and (min-width: 360px) and (max-width: 640px){
+    *{
+        margin: 0%;
+        padding: 0%;
+    }
+    .nav_bg{
+        background-color: rgb(255, 255, 255);
+        width: 100%;
+        height: 40px;
+        display: flex;
+        justify-content: space-between;
+        position: sticky;
+        top: 0px;
+        left: 0px;
+        box-shadow: 0px 3px 8px  rgb(230, 230, 230);
+    }
+    .snippets ul{
+        display: none;
+        justify-content: space-between;
+    }
+    .logo h5{
+        font-size: 14px;
+        font-weight: 500;
+    }
+    .img_bg{
+        background-color: red;
+        width: 100%;
+        height: 300px;
+       
+    }
+    .img img{
+        width: 100%;
+        height: 300px;
+        object-fit: cover;
+        object-position: 50% 10%;
+        /* overflow: hidden; */
+        
+    }
+    .img h1{
+        font-family: poppins;
+        font-size: 20px;
+        color: rgb(255, 255, 255);
+        text-align: center;
+        font-weight: 500;
+        margin-top: -11em;
+    }
+    .img h2{
+        font-family: poppins;
+        font-size: 12px;
+        letter-spacing: 2px;
+        color: rgb(255, 255, 255);
+        text-align: center;
+        font-weight: 500;  
+    }
+    .button{
+        text-align: center;
+        margin-top: -2em;
+        margin-left: 9em;
+    }
+    
+    
+    
+    
+    
+    .form input{
+    width: 244px;
+    height: 32px;
+    background-color: rgb(255, 255, 255);
+    outline: none;
+    border: none;
+    font-size: 10px;
+    color: rgb(40, 40, 40);
+    padding-left: 0.5em;
+    font-family: poppins;
+    }
+    .button input{
+        width: 100px;
+        height: 32px;
+        background-color: #049DD9;
+        border: none;
+        font-size: 10px;
+        color: white;
+        font-weight: 500px;
+        
+        cursor: pointer;
+    }
+    
+/* section1 starts here */
+.section1{
+    background-color: rgb(234, 234, 234);
+    width: 100%;
+    height: 40px;
+}
+.heading1 a{
+    text-decoration: none;
+}
+.heading1{
+    display: flex;
+    justify-content: center;
+    
+}
+.heading1 h3, h4{
+    font-size: 10px;
+    font-family: poppins;
+    font-weight: 500;
+   
+    margin-top: 1.3em;
+}
+.heading1 h4{
+    color: #049DD9;
+    
+    
+}
+/* section2 starts here */
+
+.section2_bg{
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 400px;
+    
+}
+.heading2 h1{
+    font-size: 20px;
+    width: 312px;
+    text-align: center;
+    font-family: poppins;
+    font-weight: 400;
+    margin: 2em auto;
+}
+.para{
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    
+}
+.para p{
+    color: rgb(56, 56, 56);
+    width: 117px;
+    text-align: left;
+    font-family: arial;
+    font-size: 12px;
+    
+}
+.heading3 a h3{
+    color: #049DD9;
+    font-family: poppins;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+    margin-top: 2em;
+}
+.heading3 a{
+    text-decoration: none;
+}
+/*                          section3 starts here */
+
+.section3{
+    background-color: red;
+    width: 100%;
+    height: 234px;
+    
+   
+}
+.section3 h2{
+    font-family: poppins;
+    font-size: 18px;
+    margin-top: -10em;
+    text-align: center;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+    
+    
+    
+}
+.section3 p{
+    
+    font-family: poppins;
+    font-size: 16px;
+    font-weight: 500;
+    width: auto;
+    color: rgb(255, 255, 255);
+    
+    
+}
+.section3 img{
+    width: 100%;
+    height: 234px;
+    object-fit: cover;
+}
+.section4_bg{
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 1250px;
+}
+.section4_heading h1{
+    font-family: poppins;
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 2em;
+    text-decoration-line: underline;
+    text-decoration-color: #049DD9;
+    text-underline-offset: 10px;
+}
+.heading5 h3{
+    font-family: poppins;
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration-line: underline;
+    text-decoration-color: #049DD9;
+    text-underline-offset: 10px;
+    text-align: center;
+}
+.flex5{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: center;
+    margin-top: 4em;
+}
+.flex5_one h3{
+    font-family: poppins;
+    font-weight: 400;
+    font-size: 10px;
+}
+.button1 input{
+    background-color: #049DD9;
+    border: none;
+    width: 100px;
+    height: 32px;
+    color: white;
+    font-family: poppins;
+    font-weight: 400;
+    letter-spacing: 2px;
+    cursor: pointer;
+    font-size: 10px;
+   
+   
+}
+.button1{
+   text-align: center;
+   margin-top: 5em;
+   
+}
+
+/* section6 starts here */
+.image6 img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+.image6{
+    background-color: red;
+    width: 100%;
+    height: 300px;
+}
+.heading6 h2{
+    font-family: poppins;
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+    margin-top: -12em;
+    color: white;
+   
+}
+.button2 input{
+    background-color: #049DD9;
+    border: none;
+    width: 150px;
+    height: 32px;
+    color: white;
+    font-family: poppins;
+    font-weight: 400;
+    letter-spacing: 2px;
+    cursor: pointer;
+    font-size: 10px;
+   
+   
+}
+.button2{
+   text-align: center;
+   margin-top: 1em;
+   
+}
+.section7_bg{
+    background-color: #049DD9;
+    width: 100%;
+    height: 1200px;
+}
+.flex7{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    margin: 4em;
+    
+}
+.heading7 h6{
+    color: white;
+    font-family: poppins;
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+    padding-top: 2em;
+    text-decoration-line: underline;
+    text-decoration-color: #ffffff;
+    text-underline-offset: 20px;
+    
+}
+/* section 8 starts here */
+.section8_bg{
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 1280px;
+}
+
+.heading8 h3{
+    font-family: poppins;
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration-line: underline;
+    text-decoration-color: #049DD9;
+    text-underline-offset: 10px;
+    text-align: center;
+    margin-top: 2em;
+}
+.flex8{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 100px;
+    justify-content: center;
+    margin-top: 4em;
+}
+.button8 input{
+    background-color: #049DD9;
+    border: none;
+    width: 100px;
+    height: 42px;
+    font-size: 12px;
+    color: white;
+    font-family: poppins;
+    font-weight: 400;
+    letter-spacing: 2px;
+    cursor: pointer;
+   
+   
+}
+.button8{
+   text-align: left;
+   margin-top: 5em;
+   
+}
+.button9 input{
+   background-color: white;
+    border: 2px solid #049DD9;
+    width: 100px;
+    height: 42px;
+    font-size: 12px;
+    color: #049DD9;
+    font-family: poppins;
+    font-weight: 500;
+    letter-spacing: 2px;
+    cursor: pointer;
+   
+   
+}
+.button9{
+   text-align: left;
+   margin-top: 5em;
+   
+}
+.section9_heading h1{
+    font-family: poppins;
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 2em;
+    text-decoration-line: underline;
+    text-decoration-color: #049DD9;
+    text-underline-offset: 10px;
+}
+
+
+.section9_bg{
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 1350px;
+}
+.section9{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 90px;
+    justify-content: center;
+    margin-top: 3em;
+}
+
+.heading10 h2{
+    font-family: poppins;
+    font-size: 18px;
+    font-weight: 500;
+    color: rgb(33, 33, 33);
+   text-align: center;
+   
+   
+    
+}
+.para10 p{
+    font-family: poppins;
+    font-size: 12px;
+    font-weight: 500;
+    color: rgb(33, 33, 33);
+    text-align: center;
+    margin-top: 1em;
+}
+.form10 input{
+    width: 300px;
+    height: 33px;
+    background-color: rgb(233, 233, 233);
+    outline: none;
+    border: none;
+    margin: 3px;
+    font-size: 12px;
+    color: rgb(40, 40, 40);
+    padding-left: 0.5em;
+    font-family: poppins;
+}
+.button10 input{
+    width: 300px;
+    height: 33px;
+    background-color: #049DD9;
+    border: none;
+    font-size: 12px;
+    color: white;
+    font-weight: 500px;
+    margin: 3px;
+    cursor: pointer;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+}

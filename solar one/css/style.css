@@ -1,0 +1,1161 @@
+*
+{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+.navbar
+{
+    display:flex;
+    justify-content: space-between;
+    flex: wrap;
+    overflow: hidden;
+}
+.navbar>img
+{
+    width: 50px;
+}
+.navbar_snippets,.navbar_right
+{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    overflow: hidden;
+}
+.navbar_right
+{
+    margin-top: 30px;
+    margin-right: 20px;
+    font-size: 20px;
+    margin-left: 25px;
+}
+.sign
+{
+    margin-right: 30px;
+    background: white;
+    padding: 10px;
+   text-align: center;
+  width:100px;
+    border: 2px solid black;
+   height: 45px;
+   border-radius:12px;
+   color: black;
+}
+.sign:hover{
+    background: rgb(185, 178, 178);
+    color:black;
+    cursor: pointer;
+}
+.get
+{
+    margin-right: 30px;
+    background: black;
+    width: 150px;
+    height: 45px;
+   text-align: center;
+   padding-top: 10px;
+    border: 2px solid black;
+   border-radius: 10px;
+   color:white;
+   font-size: 20px;
+   cursor: pointer;
+   
+}
+.navbar_right,.sign>a
+{
+text-decoration: none;
+color: black;
+}
+.navbar_right,.get>a
+{
+text-decoration: none;
+color: white;
+}
+
+.navbar_snippets>li,.navbar_right>li
+{
+    padding: 1em;
+    margin-top: 22px;
+    margin-right: 20px;
+
+}
+.navbar_snippets>li>a
+{
+    text-decoration: none;
+    font-size: 20px;
+}
+.fa-solid.fa-bars
+{
+    display: none;
+}
+
+.banner>img
+{
+    width: 40px;
+    height: 40px;
+    margin-top: 30px;
+    margin-left: 5px;
+}
+.banner{
+    display: flex;
+    margin-left: 10px;
+    overflow: hidden;
+   
+}
+.banner>h1>a
+{
+    text-decoration: none;
+    color: blue;;
+}
+h1
+{
+    margin-top: 30px;
+    padding-left: 15px;
+    font-family: sans-serif;
+}
+.navbar_snippets>li>a:hover
+{
+color:red;
+text-decoration: wavy;
+}
+.white
+{
+    background: white;
+    width: 100%;
+    height: 2000px;
+    position:relative;
+    overflow: hidden;
+}
+h2{
+position: absolute;
+top:5%;
+left:10%;
+font-size: 40px;
+color: blue;
+font-family: sans-serif;
+}
+h3{
+    width:650px;
+    height: 500px;
+    font-family: sans-serif;
+    font-size: 80px;
+    position: absolute;
+top:8%;
+left:10%;
+}
+.image
+{
+    position: absolute;
+    top:3%;
+    right:3%;
+    width: 574.338px;
+    height: 608.213px;
+}
+.image:hover{
+transform: scale(1.021);
+}
+.getting
+{
+    position: absolute;
+    top:25%;
+    left:10%;
+}
+.getting
+{
+    margin-right: 30px;
+    background: black;
+    width: 150px;
+    height: 55px;
+   text-align: center;
+   padding-top: 10px;
+    border: 2px solid black;
+   border-radius: 10px;
+   color:white;
+   font-size: 25px;
+   cursor: pointer;
+   padding: 10px;;
+  
+}
+.getting:hover
+{
+    opacity: 0.8;
+}
+.para
+{
+    position: absolute;
+    top:25%;
+    left:24%;
+    width: 360px;
+    height: 60px;
+    font-size: 20px;
+    line-height: 30px;
+    font-family: sans-serif;
+}
+h5
+{
+width:900px;
+height: 150px;
+position: absolute;
+top:47%;
+left: 20%;
+font-family: sans-serif;
+font-size: 60px;
+}
+h6{
+    width:900px;
+height: 150px;
+position: absolute;
+top:49.5%;
+left: 40%;
+font-family: sans-serif;
+font-size: 60px;
+}
+.para7{
+    width:1000px;
+    height: 150px;
+    position: absolute;
+    top:53.5%;
+    left: 20%;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+.video>video
+{
+    position: absolute;
+    top:58%;
+    left: 18%;
+    cursor: pointer;
+    overflow: hidden;
+    width: 950px;
+}
+.para8{
+   
+    position: absolute;
+    top:92%;
+    left:35%;
+    font-family: sans-serif;
+    font-size: 30px;
+}
+.photos
+{
+    display: flex;
+    position: absolute;
+    top:95%;
+    left: 15%;
+    overflow: hidden;
+}
+
+.brand
+{
+    width: 210px;
+    height: 41px;
+    cursor: pointer;
+}
+.yesh
+{
+    background: #F4F4F5;
+    width: 100%;
+    height: 2500px;
+    position: relative;
+    overflow: hidden;
+}
+.solar
+{
+    width: 574px;
+    height: 546px;
+    position: absolute;
+    top:10%;
+    right: 10%;
+    overflow: hidden;
+
+}
+h4{
+    position: absolute;
+    top:15%;
+    left: 12%;
+    font-size: 22px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: blue;
+}
+h7
+{
+    position: absolute;
+    top:16.5%;  
+    left: 12%;
+    font-size: 50px;
+    width: 600px;
+    height: 40px;
+    line-height: 43px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.para9
+{
+    position: absolute;
+    top:21%;  
+    left: 12%;
+    width: 600px;
+    font-size: 25px;
+    font-family: sans-serif;
+}
+
+.try
+{
+    position: absolute;
+    top:27%;
+    left: 12%;
+    background: black;
+    padding: 10px;
+   text-align: center;
+  width:120px;
+    border: 2px solid black;
+   height: 45px;
+   border-radius:12px;
+   color:white;
+   font-family:sans-serif;
+}
+.try:hover{
+  opacity: 0.8;
+
+    cursor: pointer;
+}
+.learn
+{
+    position: absolute;
+    top:27%;
+    left: 21%;
+    background: white;
+    padding: 10px;
+   text-align: center;
+  width:140px;
+    border: 2px solid black;
+   height: 45px;
+   border-radius:12px;
+   color:black;
+   font-family:sans-serif;
+}
+.learn:hover
+{
+ opacity: 0.8;
+ color: red;
+    cursor: pointer;
+}
+.solar2
+{
+    width: 574px;
+    height: 546px;
+    position: absolute;
+    top:40%;
+    left: 10%;
+
+}
+h8
+{
+    position: absolute;
+    top:42%;
+    left:55%;
+    font-size: 22px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: blue;
+}
+h9
+{
+    position: absolute;
+    top:43.5%;  
+    left: 55%;
+    font-size: 45px;
+    width: 600px;
+    height: 40px;
+    line-height: 43px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.para10
+{
+    position: absolute;
+    top:47.5%;  
+    left: 55%;
+    width: 600px;
+    font-size: 25px;
+    font-family: sans-serif;
+}
+.more
+{
+    position: absolute;
+    top:52%;
+    left: 55%;
+    background: black;
+    padding: 10px;
+   text-align: center;
+  width:130px;
+    border: 2px solid black;
+   height: 45px;
+   border-radius:12px;
+   color:white;
+   font-family:sans-serif;
+   font-size: 18px;
+}
+.more:hover{
+  opacity: 0.8;
+
+    cursor: pointer;
+}
+
+.solar3
+{
+    width: 574px;
+    height: 546px;
+    position: absolute;
+    top:68%;
+    right: 8%;
+
+}
+h10{
+    position: absolute;
+    top:75%;
+    left: 12%;
+    font-size: 22px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: blue;
+}
+h11
+{
+    position: absolute;
+    top:76.5%;  
+    left: 12%;
+    font-size: 50px;
+    width: 600px;
+    height: 40px;
+    line-height: 43px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.para11
+{
+    position: absolute;
+    top:81%;  
+    left: 12%;
+    width: 600px;
+    font-size: 25px;
+    font-family: sans-serif;
+}
+
+.start
+{
+    position: absolute;
+    top:87%;
+    left: 12%;
+    background: black;
+    padding: 10px;
+   text-align: center;
+  width:120px;
+    border: 2px solid black;
+   height: 45px;
+   border-radius:12px;
+   color:white;
+   font-family:sans-serif;
+}
+.start:hover{
+  opacity: 0.8;
+
+    cursor: pointer;
+}
+.info
+{
+    position: absolute;
+    top:87%;
+    left: 21%;
+    background: white;
+    padding: 10px;
+   text-align: center;
+  width:140px;
+    border: 2px solid black;
+   height: 45px;
+   border-radius:12px;
+   color:black;
+   font-family:sans-serif;
+}
+.info:hover
+{
+ opacity: 0.8;
+ color: red;
+    cursor: pointer;
+}
+.yesh1
+{
+    background: #F4F4F5;
+    width: 100%;
+    height: 800px;
+    position: relative;
+}
+.solar4
+{
+    position: absolute;
+    left: 15%;
+    width: 900px;
+    border-radius: 50px;
+}
+.yesh2
+{
+    background: #fff;
+    width: 100%;
+    height: 1800px;
+    position: relative;
+    overflow: hidden;
+}
+.para12
+{
+position: absolute;
+top:15%;
+left:28%;
+font-size: 60px;
+width: 750px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+line-height: 50px;
+}
+.para13
+{
+position: absolute;
+top:22%;
+left:48%;
+font-size: 60px;
+width: 750px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+line-height: 35px;
+}
+.container
+{
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    top:30%;
+    left:15%;
+    overflow: hidden;
+   
+}
+.item
+{
+    background: white;
+    border: 1px solid #323232;
+   
+    width:452px;
+    height: 444px;
+    border-radius: 50px;
+    margin: 30px;
+    overflow: hidden;
+}
+.quo
+{
+    position: absolute;
+    top:5%;
+    left: 5%;
+}
+.para14{
+    width: 350px;
+    height: 200px;
+    font-size: 25px;
+    position: absolute;
+    top:13%;
+    left:8%;
+   
+}
+.avtar
+{
+    position: absolute;
+    top: 35%;
+    left:10%;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.para15{
+    position: absolute;
+    top: 37%;
+    left:15%;
+    font-size: 18px;
+}
+.quo2
+{
+    position: absolute;
+    top:5%;
+    left: 44%;
+    overflow: hidden;
+}
+.para16{
+    width: 350px;
+    height: 200px;
+    font-size: 25px;
+    position: absolute;
+    top:13%;
+    left:47%;
+   
+}
+.avtar1
+{
+    position: absolute;
+    top: 30%;
+    left:45%;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.para17{
+    position: absolute;
+    top: 32%;
+    left:50%;
+    font-size: 18px;
+}
+.quo3
+{
+    position: absolute;
+    top:55%;
+    left: 5%;
+}
+.para18{
+    width: 350px;
+    height: 200px;
+    font-size: 25px;
+    position: absolute;
+    top:63%;
+    left:6%;
+   
+}
+.avtar2
+{
+    position: absolute;
+    top: 85%;
+    left:10%;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.para19{
+    position: absolute;
+    top: 87%;
+    left:15%;
+    font-size: 20px;
+}
+.quo4
+{
+    position: absolute;
+    top:55%;
+    left: 42%;
+}
+.para20{
+    width: 350px;
+    height: 200px;
+    font-size: 25px;
+    position: absolute;
+    top:63%;
+    left:45%;
+   
+}
+.avtar3
+{
+    position: absolute;
+    top: 80%;
+    left:45%;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.para21{
+    position: absolute;
+    top: 82%;
+    left:50%;
+    font-size: 20px;
+}
+.yesh3
+{
+    background:black;
+    width: 100%;
+    height: 1500px;
+    position: relative;
+    overflow: hidden;
+}
+h12
+{
+    position: absolute;
+    top:15%;
+    left:43%;
+    color: blue;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.para22
+{
+    width: 700px;
+    height: 64px;
+    font-size: 55px;
+    color: white;
+    position: absolute;
+    top:17%;
+    left:30%;
+}
+
+.blog
+{
+    position: absolute;
+    top:40%;
+    left:15%;
+    width:400px;
+    
+    border-radius: 30px;
+}
+.blog2
+{
+    position: absolute;
+    top:40%;
+    left:50%;
+    width:400px;
+    border-radius: 30px;
+}
+.para24
+{
+    position: absolute;
+    top:56%;
+    left:15%;
+    color: #a0a0a3;
+    font-size: 20px;
+}
+.para25
+{
+    position: absolute;
+    top:58%;
+    left: 15%;
+    width: 500px;
+    font-size: 35px;
+    color: white;
+    
+}
+.para26
+{
+    width: 500px;
+    font-size: 18px;
+    position: absolute;
+    top:67%;
+    left:15%;
+    color:#a0a0a3 ;
+    text-align: justify;
+}
+.para27
+{
+    position: absolute;
+    top:56%;
+    left: 51%;
+    width: 500px;
+    font-size: 20px;
+    color: #a0a0a3;
+    
+}
+.para28
+{
+    position: absolute;
+    top:58%;
+    left: 51%;
+    width: 500px;
+    font-size: 35px;
+    color: white;
+}
+.para29
+{
+    width: 500px;
+    font-size: 18px;
+    position: absolute;
+    top:67%;
+    left:51%;
+    color:#a0a0a3 ;
+    text-align: justify;
+}
+.blog3
+{
+    position: absolute;
+    top:85%;
+    left:15%;
+    width:400px;
+    border-radius: 30px;
+    
+}
+.blog3:hover
+{
+    cursor: pointer;
+    transform: scale(1.021);
+}
+.blog4:hover
+{
+    cursor: pointer;
+    transform: scale(1.021);
+}
+.blog2:hover
+{
+    cursor: pointer;
+    transform: scale(1.021);
+}
+.blog:hover
+{
+    cursor: pointer;
+    transform: scale(1.021);
+}
+.blog4
+{
+    position: absolute;
+    top:85%;
+    left:51%;
+    width:400px;
+    border-radius: 30px;
+}
+.para40{
+    position: absolute;
+    top:3%;
+    left:15%;
+    color: #a0a0a3;
+    font-size: 20px;
+}
+.yesh4
+{
+    background:black;
+    width: 100%;
+    height: 450px;
+    position: relative;
+    overflow: hidden;
+}
+.para30
+{
+    position: absolute;
+    top:8%;
+    left: 15%;
+    width: 500px;
+    font-size: 35px;
+    color: white;
+    
+}
+.para60
+{
+    display: none;
+}
+.para61
+{
+    display: none;
+}
+.para62
+{
+    display: none;
+}
+.para31
+{
+    width: 500px;
+    font-size: 18px;
+    position: absolute;
+    top:28%;
+    left:15%;
+    color:#a0a0a3 ;
+    text-align: justify;
+}
+.para32
+{
+    position: absolute;
+    top:3%;
+    left:51%;
+    color: #a0a0a3;
+    font-size: 20px;
+}
+.para33
+{
+    position: absolute;
+    top:8%;
+    left: 51%;
+    width: 500px;
+    font-size: 35px;
+    color: white;
+    
+}
+.para34
+{
+    width: 500px;
+    font-size: 18px;
+    position: absolute;
+    top:28%;
+    left:51%;
+    color:#a0a0a3 ;
+    text-align: justify;
+}
+.yesh5
+{
+     background: rgb(192,189,226);
+    background: linear-gradient(90deg, rgba(192,189,226,1) 0%, rgba(158,209,177,1) 100%);
+    width: 100%;
+    height: 650px;
+    position: relative;
+    overflow: hidden;
+}
+.black
+{
+    background: black;
+    width: 1180px;
+    height:380 ;
+    border-radius: 50px;
+   position: absolute;
+   top:25%;
+   left:10%;
+}
+.footer:hover
+{
+    cursor: pointer;
+    color: #a0a0a3;
+}
+h15
+{
+    position: absolute;
+    top:20%;
+    left: 10%;
+    color:white;
+    font-size:60px;
+    width: 800px;
+    font-family: Impact;
+}
+h15:hover{
+    color:violet;
+}
+h50
+{
+    position: absolute;
+    top:65%;
+    left: 10%;
+    font-size: 25px;
+    color: white;
+}
+.talk
+{
+    background: white;
+    width: 210px;
+    height: 50px;
+    color:black;
+    position: absolute;
+    top:20%;
+    right: 5%;
+    text-align: center;
+    border-radius: 25px;
+    padding: 12px;
+    font-size: 22px;
+    cursor: pointer;
+}
+.talk:hover
+{
+    color: white;
+    background: #a0a0a3;
+}
+.yesh6
+{
+     background: white;
+    width: 100%;
+    height: 580px;
+    position: relative;
+    overflow: hidden;
+}
+h14
+{
+    position: absolute;
+    top:15%;
+    left: 28%;
+    font-size: 30px;
+    color: black;
+    font-family: arial;
+}
+.small
+{
+    position: absolute;
+    top:28%;
+    left:40%;
+    font-size: 22px;
+    color: #a0a0a3;
+}
+.logos
+{
+position: absolute;
+top:55%;
+left:10%;
+}
+h16
+{
+    position: absolute;
+    top:57%;
+    left:14%;
+    font-size: 30px;
+    color: black;
+    font-size: 25px;
+    font-family: arial;
+}
+h17
+{
+    position: absolute;
+    top:57%;
+    left:45%;
+    font-size: 25px;
+    color: blue;
+    font-size: 25px;
+    font-family: arial;
+}
+h18
+{
+    position: absolute;
+    top:65%;
+    left:46%;
+    font-size: 20px;
+    color: black;
+    font-size: 25px;
+    font-family: poppins;
+}
+h19
+{
+    position: absolute;
+    top:73%;
+    left:46%;
+    font-size: 20px;
+    color: black;
+    font-size: 25px;
+    font-family: poppins;
+}
+h20
+{
+    position: absolute;
+    top:81%;
+    left:46%;
+    font-size: 20px;
+    color: black;
+    font-size: 25px;
+    font-family: poppins;
+}
+h21
+{
+    position: absolute;
+    top:57%;
+    left:64%;
+    font-size: 25px;
+    color: blue;
+    font-size: 25px;
+    font-family: arial;
+}
+h22
+{
+    position: absolute;
+    top:65%;
+    left:65%;
+    font-size: 20px;
+    color: black;
+    font-size: 25px;
+    font-family: poppins;
+}
+h23
+{
+    position: absolute;
+    top:73%;
+    left:65%;
+    font-size: 20px;
+    color: black;
+    font-size: 25px;
+    font-family: poppins;
+}
+h24
+{
+    position: absolute;
+    top:81%;
+    left: 65%;
+    font-size: 20px;
+    color: black;
+    font-size: 25px;
+    font-family: poppins;
+}
+
+h25
+{
+    position: absolute;
+    top:57%;
+    left:85%;
+    font-size: 25px;
+    color: blue;
+    font-size: 25px;
+    font-family: arial;
+}
+h26
+{
+    position: absolute;
+    top:65%;
+    left:85%;
+    font-size: 20px;
+    color: black;
+    font-size: 25px;
+    font-family: poppins;
+}
+h27
+{
+    position: absolute;
+    top:73%;
+    left:85%;
+    font-size: 20px;
+    color: black;
+    font-size: 25px;
+    font-family: poppins;
+}
+h28
+{
+    position: absolute;
+    top:81%;
+    left:85%;
+    font-size: 20px;
+    color: black;
+    font-size: 25px;
+    font-family: poppins;
+}
+.last
+{
+    position: absolute;
+    top:95%;
+    left:40%;
+    color: black;
+    font-size: 25px;
+}
+.fa-instagram
+{
+position: absolute;
+top:80%;
+left:5%;
+font-size: 40px;
+}
+.fa-instagram:hover
+{
+    cursor: pointer;
+    color: red;
+     transform: scale(1.1);
+}
+.fa-youtube
+{
+    position: absolute;
+top:80%;
+left:10%;
+font-size: 40px;
+}
+.fa-youtube:hover
+{
+    cursor: pointer;
+    color: red;
+    transform: scale(1.1);
+}
+.fa-github
+{
+    position: absolute;
+top:80%;
+left:15%;
+font-size: 40px;
+}
+.fa-github:hover
+{
+    cursor: pointer;
+    color: blue;
+    transform: scale(1.1);
+}
+.fa-twitter
+{
+    position: absolute;
+top:80%;
+left:20%;
+font-size: 40px;
+}
+.fa-twitter:hover
+{
+    cursor: pointer;
+    color: red;
+    transform: scale(1.1);
+}

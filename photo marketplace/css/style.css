@@ -1,0 +1,578 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* nav bar starts here */
+
+.nav_bg{
+    background-color: #049DD9;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    top: 0px;
+    left: 0px;
+    /* box-shadow: 0px 3px 10px  rgb(230, 230, 230); */
+}
+.snippets ul{
+    display: flex;
+    justify-content: space-between;
+}
+
+.snippets ul li {
+    list-style: none;
+    color: rgb(40, 40, 40);
+    padding: 1em;
+    
+}
+.logo h5, .icons{
+    padding: 1em;
+    font-size: 16px;
+    font-family: poppins;
+    color: white;
+}
+.snippets ul li a{
+    text-decoration: none;
+    justify-content: space-between;
+    font-family: poppins;
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    font-weight: 400;
+        
+    
+}
+/*                               main image starts here */
+.img_bg{
+    background-color: red;
+    width: 100%;
+    height: 600px;
+   
+}
+.img img{
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+    object-position: 50% 10%;
+    overflow: hidden;
+    
+}
+
+.img h1{
+    font-family: poppins;
+    font-size: 60px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-weight: 500;
+    margin-top: -8em;
+}
+.img h2{
+    font-family: poppins;
+    font-size: 18px;
+    letter-spacing: 2px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-weight: 500;  
+}
+
+/*                  form starts here */
+.form {
+    text-align: center;
+}
+.button{
+    text-align: center;
+    margin-top: -2.7em;
+    margin-left: 23.8em;
+}
+
+
+
+
+
+.form input{
+    width: 480px;
+    height: 43px;
+    background-color: rgb(255, 255, 255);
+    outline: none;
+    border: none;
+    margin-top: 1em;
+    font-size: 16px;
+    color: rgb(40, 40, 40);
+    padding-left: 0.5em;
+    font-family: poppins;
+}
+.button input{
+    width: 100px;
+    height: 43px;
+    background-color: #049DD9;
+    border: none;
+    font-size: 16px;
+    color: white;
+    font-weight: 500px;
+    
+    cursor: pointer;
+}
+/*                      form ends here */
+
+
+
+/* section1 starts here */
+.section1{
+    background-color: rgb(234, 234, 234);
+    width: 100%;
+    height: 50px;
+}
+.heading1 a{
+    text-decoration: none;
+}
+.heading1{
+    display: flex;
+    justify-content: center;
+    
+}
+.heading1 h3, h4{
+    font-size: 16px;
+    font-family: poppins;
+    font-weight: 500;
+    margin-top: 1em;
+}
+.heading1 h4{
+    color: #049DD9;
+    
+    
+}
+
+
+/* section2 starts here */
+
+.section2_bg{
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 550px;
+    
+}
+.heading2 h1{
+    font-size: 40px;
+    width: 700px;
+    text-align: center;
+    font-family: poppins;
+    font-weight: 400;
+    margin: 2em auto;
+}
+.para{
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    
+}
+.para p{
+    color: rgb(56, 56, 56);
+    width: 300px;
+    text-align: left;
+    font-family: arial;
+    
+}
+.heading3 a h3{
+    color: #049DD9;
+    font-family: poppins;
+    font-size: 18px;
+    font-weight: 500;
+    text-align: center;
+    margin-top: 4em;
+}
+.heading3 a{
+    text-decoration: none;
+}
+
+
+/*                          section3 starts here */
+
+.section3{
+    background-color: red;
+    width: 100%;
+    height: 600px;
+    
+   
+}
+.section3 h2{
+    font-family: poppins;
+    font-size: 30px;
+    margin-top: -16em;
+    text-align: center;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+    
+    
+    
+}
+.section3 p{
+    
+    font-family: poppins;
+    font-size: 16px;
+    font-weight: 500;
+    width: auto;
+    color: rgb(255, 255, 255);
+    
+    
+}
+.section3 img{
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+}
+
+/*                           section3 ends here */
+/*                           section4 starts here */
+
+.section4_heading h1{
+    font-family: poppins;
+    font-weight: 400;
+    font-size: 24px;
+    text-align: center;
+    margin-top: 2em;
+    text-decoration-line: underline;
+    text-decoration-color: #049DD9;
+    text-underline-offset: 20px;
+}
+
+
+.section4_bg{
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 450px;
+}
+.section4 img{
+    width: 250px;
+    height: 300px;
+}
+.section4{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 90px;
+    justify-content: center;
+    margin-top: 5em;
+}
+.section4 a {
+    text-decoration: none;
+}
+.section4 a h3{
+    font-family: poppins;
+    font-weight: 500;
+    color: rgb(41, 41, 41);
+    font-size: 14px;
+}
+/* section5 bg starts here */
+.section5_bg{
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 500px;
+}
+.heading5 h3{
+    font-family: poppins;
+    font-size: 24px;
+    font-weight: 400;
+    text-decoration-line: underline;
+    text-decoration-color: #049DD9;
+    text-underline-offset: 20px;
+    text-align: center;
+}
+.flex5{
+    display: flex;
+    gap: 150px;
+    justify-content: center;
+    margin-top: 4em;
+}
+.flex5_one h3{
+    font-family: poppins;
+    font-weight: 400;
+    font-size: 14px;
+}
+/* button1 starts here */
+.button1 input{
+    background-color: #049DD9;
+    border: none;
+    width: 100px;
+    height: 42px;
+    color: white;
+    font-family: poppins;
+    font-weight: 400;
+    letter-spacing: 2px;
+    cursor: pointer;
+   
+   
+}
+.button1{
+   text-align: center;
+   margin-top: 5em;
+   
+}
+/* section6 starts here */
+.image6 img{
+    width: 100%;
+    height: 700px;
+    object-fit: cover;
+}
+.image6{
+    background-color: red;
+    width: 100%;
+    height: 700px;
+}
+/* button2 starts here */
+.button2 input{
+    background-color: #049DD9;
+    border: none;
+    width: 200px;
+    height: 42px;
+    color: white;
+    font-family: poppins;
+    font-weight: 400;
+    letter-spacing: 2px;
+    cursor: pointer;
+   
+   
+}
+.button2{
+   text-align: center;
+   margin-top: 3em;
+   
+}
+/* button2 ends here */
+.heading6 h2{
+    font-family: poppins;
+    font-weight: 400;
+    font-size: 30px;
+    text-align: center;
+    margin-top: -12em;
+    color: white;
+   
+}
+/* section 7 starts here */
+.heading7 h6{
+    color: white;
+    font-family: poppins;
+    font-weight: 400;
+    font-size: 24px;
+    text-align: center;
+    padding-top: 4em;
+    text-decoration-line: underline;
+    text-decoration-color: #ffffff;
+    text-underline-offset: 20px;
+    
+}
+.section7_bg{
+    background-color: #049DD9;
+    width: 100%;
+    height: 500px;
+}
+.flex7{
+    display: flex;
+    gap: 50px;
+    margin: 4em;
+    
+}
+.flex7 p{
+    width: auto;
+    text-align: center;
+    font-family: poppins;
+    color: white;
+    font-size: 14px;
+}
+.flex7 img{
+    width: 80px;
+    margin-left: 35%;
+}
+/* section 8 starts here */
+.section8_bg{
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 500px;
+}
+
+.heading8 h3{
+    font-family: poppins;
+    font-size: 24px;
+    font-weight: 400;
+    text-decoration-line: underline;
+    text-decoration-color: #049DD9;
+    text-underline-offset: 20px;
+    text-align: center;
+    margin-top: 2em;
+}
+.flex8{
+    display: flex;
+    gap: 150px;
+    justify-content: center;
+    margin-top: 4em;
+}
+.flex8_one h3{
+    font-family: poppins;
+    font-weight: 400;
+    font-size: 14px;
+}
+/* button1 starts here */
+.button8 input{
+    background-color: #049DD9;
+    border: none;
+    width: 100px;
+    height: 42px;
+    color: white;
+    font-family: poppins;
+    font-weight: 400;
+    letter-spacing: 2px;
+    cursor: pointer;
+   
+   
+}
+.button8{
+   text-align: left;
+   margin-top: 5em;
+   
+}
+.button9 input{
+   background-color: white;
+    border: 2px solid #049DD9;
+    width: 100px;
+    height: 42px;
+    color: #049DD9;
+    font-family: poppins;
+    font-weight: 500;
+    letter-spacing: 2px;
+    cursor: pointer;
+   
+   
+}
+.button9{
+   text-align: left;
+   margin-top: 5em;
+   
+}
+.flex8_one h1, h2{
+    font-family: poppins;
+    font-weight: 500;
+    font-size: 18px;
+    margin-top: 1em;
+    
+}
+.flex8_one  h2{
+    border-bottom: 1px solid rgb(84, 84, 84);
+    border-width: 2px;
+}
+.flex8_one h1{
+    margin-top: 1em;
+}
+.flex8_one ul li h3{
+    margin-top: 1em;
+}
+/* section 9 starts here  */
+.section9_heading h1{
+    font-family: poppins;
+    font-weight: 400;
+    font-size: 24px;
+    text-align: center;
+    margin-top: 2em;
+    text-decoration-line: underline;
+    text-decoration-color: #049DD9;
+    text-underline-offset: 20px;
+}
+
+
+.section9_bg{
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 450px;
+}
+.section9 img{
+    width: 250px;
+    height: 300px;
+    object-fit: cover;
+}
+.section9{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 90px;
+    justify-content: center;
+    margin-top: 5em;
+}
+.section9 a {
+    text-decoration: none;
+}
+.section9 a h3{
+    font-family: poppins;
+    font-weight: 500;
+    color: rgb(41, 41, 41);
+    font-size: 16px;
+    padding-top: 5px;
+    text-align: center;
+}
+.section9 h2{
+    font-size: 12px;
+    color: grey;
+    text-align: center;
+    
+}
+/* section 10 starts here  */
+.section10_bg{
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 400px;
+}
+.form10 input{
+    width: 480px;
+    height: 43px;
+    background-color: rgb(233, 233, 233);
+    outline: none;
+    border: none;
+    margin: 3px;
+    font-size: 16px;
+    color: rgb(40, 40, 40);
+    padding-left: 0.5em;
+    font-family: poppins;
+}
+.button10 input{
+    width: 480px;
+    height: 43px;
+    background-color: #049DD9;
+    border: none;
+    font-size: 16px;
+    color: white;
+    font-weight: 500px;
+    margin: 3px;
+    cursor: pointer;
+    letter-spacing: 2px;
+    text-align: center;
+}
+.button10{
+    text-align: center;
+}
+.form10{
+    text-align: center;
+    
+}
+.main_form10{
+    margin-top: 4em;
+}
+
+.heading10 h2{
+    font-family: poppins;
+    font-size: 20px;
+    font-weight: 500;
+    color: rgb(33, 33, 33);
+   text-align: center;
+   
+   
+    
+}
+.para10 p{
+    font-family: poppins;
+    font-size: 14px;
+    font-weight: 500;
+    color: rgb(33, 33, 33);
+    text-align: center;
+    margin-top: 1em;
+}
+.flex5_one a{
+text-decoration: none;
+color: rgb(36, 36, 36);
+}

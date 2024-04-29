@@ -1,0 +1,539 @@
+@media only screen and (min-width:360px) and (max-width:640px)
+{
+    *
+    {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    nav
+    {
+        visibility: visible;
+    }
+    .yesh
+    {
+        display: none;
+    }
+ // column eleven starts
+   
+ .yesh1
+ {
+     background: rgb(35,70,124);
+     background: linear-gradient(90deg, rgb(239, 240, 249) 0%, rgb(233, 234, 238) 100%);
+     width: 100%;
+     height: 7300px;
+     .yesh2
+     {
+         margin-top:150px;
+     }
+     .cloud
+     {
+         position: absolute;
+         top: 5%;
+         left: 4%;
+         width: 340px;
+         opacity: 0.7;
+     }
+     .resumebtn
+     {
+         width: 120px;
+         height: 40px;
+         margin-top: 30px;
+         font-size: 16px;
+       
+       
+     }
+     .resumebtn:hover
+     {
+        color: red;
+        background-color: red;  
+     }
+     .image
+     {
+         width: 50px;
+ 
+     }
+     .typing
+     {
+        margin-left: 80px;
+        
+     }
+     .ui
+     {
+         font-size: 24px;
+         color:rgb(3, 4, 45) ;
+     }
+   #retype
+   {
+     color: red;
+     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     font-size: 24px;
+   }
+    }
+ 
+ // box starts Here
+ .box
+ {   
+   
+     background: rgb(0, 0, 0);
+     background: linear-gradient(90deg, rgb(10, 40, 58) 43%, rgb(6, 12, 37) 79%);
+     opacity: 0.9;
+     width: 90%;
+     height: 1350px;
+     .text1
+     {
+         padding-top: 100px;
+         font-size: 18px;
+        
+     }
+     .paara
+  {
+    width: 250px;
+   margin-left: 30px;
+  }
+    .ring
+    {
+     padding-left: 240px;
+     padding-top: 80px;
+     width: 330px;
+    }
+ }
+ // box ends here
+
+
+// Project starts here 
+.light1
+{
+    position: absolute;
+    top: 8%;
+    left: 12%;
+    width: 50px;
+}
+.container
+{
+    .recent
+    {
+        margin-top: 100px;
+        font-size:10px;
+        .work1
+        {
+            margin-top: 20px;
+            font-size: 35px;
+            width: 270px;
+            margin-left: 30px;
+            line-height: 40px;
+        }
+        .first1
+        {
+            margin-top: -60px;
+            font-size: 30px;
+        }
+        .work
+        {
+            margin-top: -20px;
+            font-size: 30px;
+        }
+    }
+    .projectimg
+    {
+        width: 340px;
+        padding: 20px;
+    }
+    .projectimg:hover
+    {
+        transform: scale(90%,90%);
+        cursor: pointer;
+       
+    }
+    .projectimg1
+    {
+        width: 340px;
+        padding: 10px;
+    }
+    .projectimg1:hover
+    {
+        transform: scale(90%,90%);
+        cursor: pointer;
+       
+    }
+    
+}
+// Project ends here 
+
+// about me starts here
+.container
+{
+.myimg
+{
+    width: 280px;
+    margin-top: -60px;
+}
+.text3
+{
+    margin-top: 15px;
+    line-height: 30px;
+    font-size: 30px;
+    background: -webkit-linear-gradient(rgb(136, 0, 255), rgb(255, 0, 43));
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.devlop
+{
+    
+    color: rgb(0, 0, 0);
+   font-size: 22px;
+   margin-left: 10px;
+   width: 320px;
+   
+   
+   
+  
+}
+.want
+{
+    width: 350px;
+    height: 100px;
+    text-align: justify;
+    margin-left: 5px;   
+ 
+}
+.downloadcv
+{
+    background-color: red;
+    width: 180px;
+    height: 40px;
+    padding: 5px;
+    
+}
+.myimg
+{
+    margin-left: -10px;
+    margin-top: none;
+}
+}
+// about me ends here
+// bio starts here 
+.yeshwanth
+{
+    background-color: rgb(3, 96, 108);
+    padding-right: 360px;
+    
+    width: 100%;
+    height: 1px;
+    margin: 0px;
+  
+    border: 1px solid black;
+    border-radius: 20px;
+    .time
+    {
+       display: none;
+      
+    }
+    .list
+    {
+        width: 340px;
+     
+    }
+
+    .table
+    {
+        width: 100%;
+        height: 200px;
+       background-color: white;
+        font-size: 10px;
+      
+        
+       
+    }
+    .techskills
+    {
+        width: 320px;
+    }
+    .coolor
+    {
+        margin-top                                                                                                          : 10px;
+    }
+    .htimg
+    {
+        width: 35px;
+    }
+    h2
+    {
+        font-size: 16px;
+    }
+    .htimg1
+    {
+        width: 35px;
+    }
+    .yeah
+    {
+        width: 200px;
+    }
+    .space
+    {
+        margin-left: -10px;
+    }
+    .widd
+    {
+        width: 10px;
+    }
+    .white
+    {
+        background-color: rgb(255, 255, 255);
+        width: 350px;
+        height: 550px;
+        margin-left: 0px;
+        padding: 20px;
+    }
+   
+.skill
+{
+    width: 100%;
+}
+
+.color
+{
+    width: 200px;
+    height: 50px;
+   font-size: 20px;
+}   
+.large
+{
+    font-size: 16px;
+    
+}
+.sma
+{
+    font-size: 14px;
+}
+.bag
+{
+    background-color: red;
+    width: 80px;
+    height: 30px;
+    color: white;
+    margin-left: 90px;
+    font-size: 12px;
+   
+}
+.htm
+{
+    font-size: 12px;
+}
+
+}
+// bio ends here 
+
+
+
+// hire me starts here 
+.box2
+{
+    background: rgb(0, 0, 0);
+    background: linear-gradient(90deg, rgb(10, 40, 58) 43%, rgb(6, 12, 37) 79%);
+    opacity: 0.8;
+    width: 100%;
+    height: 200px;
+  margin-top: 800px;
+  position: relative;
+  .arr
+{
+    position: absolute;
+    top:- 10%;
+    right:3%;
+    width: 70px;
+}
+
+.small
+{
+    position: absolute;
+    top: 10%;
+    left:-10%;
+}
+.av
+{
+    font-size: 30px;
+    width: 280px;
+    height: 50px;
+    color: white;
+    margin-top: 5px;
+    margin-left:60px;
+}
+
+.bt
+{
+    margin-top: 20px;
+    margin-left: 50px;
+    
+    width: 160px;
+    font-size: 16px;
+    border-radius: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+   
+}
+.bt:hover
+{
+    cursor: pointer;
+}
+}
+// hire me ends here 
+
+// contact starts here 
+.container{
+ 
+    .big
+    {
+        color: white;
+        text-align: left;
+    }
+    .small{
+        width: 280px;
+        height: 50px;
+        font-size: 12px;
+        color: white;
+        text-align: justify;
+
+    }
+    .colrful
+    {
+
+  width: 100%;
+  height: 580px;
+    background: rgb(23, 53, 62);
+    background: linear-gradient(90deg, rgb(23, 47, 62) 43%, rgb(1, 12, 55) 79%);
+    opacity: 0.8;
+    margin-left: -2px;
+}
+.yesh5
+{
+    height: 50px;
+   
+ 
+}
+.yesh6
+{
+    width: 400px;
+    height: 50px;
+    text-align: left;
+}
+.send
+{
+    background-color: red;
+    width: 200px;
+    height: 50px;
+    padding: 10px;
+    border: 1px solid rgb(0, 0, 17);
+    border-radius: 50px;
+    font-size: 18px;  
+    color: white;
+}
+.send:hover
+    {
+        background-color: skyblue;
+        cursor: pointer;
+        color: white;
+    }
+.icon
+{
+    margin-top: 50PX;
+}
+.icon
+{
+    margin-top: 10PX;
+}
+.icon1
+{
+  color: white;
+  background-color: rgb(3, 4, 45);
+  width: 80px;
+  border-radius: 5px;
+}
+
+ .fon
+ {
+    font-size: 12px;
+    margin-top: 20px;
+    margin-left: 15px;
+ }
+}
+// contact ends here 
+
+// footer starts here
+.footer
+{
+    background: rgb(0,9,57);
+    background: linear-gradient(90deg, rgba(0,9,57,1) 0%, rgba(0,9,57,1) 100%);
+    width: 100%;
+    height: 100px;
+    .foot
+    {
+        margin-top: 22px;
+        margin-left: 25px;
+    }
+    .copy
+    {
+    
+        color: white;
+       font-size: 10px;
+     
+        
+    } 
+  
+    .text6
+    {
+        border-right:1px solid blue;
+        height: 20px;
+        cursor: pointer;
+       font-size: 10px;
+       margin-left: 2px;
+    }
+    .text6:hover
+    {
+        opacity: 0.7;
+    }
+    span
+    {
+        margin-left: 20px;
+    }
+}
+
+// footer ends here 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

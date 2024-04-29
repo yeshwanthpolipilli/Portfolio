@@ -1,0 +1,556 @@
+*
+{
+margin:0;
+padding:0;
+}
+.navbar>ul
+{
+	display:flex;
+	margin-top:30px;
+	justify-content:space-evenly;
+	padding:5px;
+	
+}
+
+.navbar>ul>li>a
+{
+	text-decoration:none;
+	color:green;
+	margin:3px;
+	font-size:20px;
+}
+.navbar>ul>li>a:hover
+{
+	background:white;
+	border:solid 2px;
+	padding:5px;
+	font-family:cotoris;
+}
+.navbar>ul>li
+{
+list-style:none;
+margin-top:23px;
+
+margin-right:10px;
+}
+.banner
+{
+	list-style:none;
+}
+.banner:hover
+{
+	
+	transform:scale(1.2);
+	
+
+}
+.picture
+{
+	background-image:url("images/recipe.jpg");
+	background-size:cover;
+	height:700px;
+	width:100%;
+	position:relative;
+	cursor:pointer;
+	hover:red;
+}
+
+.yesh
+{
+	background:#CBDCCB;
+	height:200px;
+	width:800px;
+	position:absolute;
+    top:75%;
+	opacity:0.5;
+	border-radius:20px;
+}
+.yesh:hover
+{
+	box-shadow:1px 1px 10px black;
+	border-radius:20px ;
+	cursor:pointer;
+	transform:scale(1.1);
+}
+.recipe
+{
+	font-size:85px;
+	position:absolute;
+	top:78%;
+	left:40px;
+	font-weight:bold;
+	color:white;
+
+}
+
+.text
+{
+	font-size:25px;
+	position:absolute;
+	top:94%;
+	left:35px;
+	color:white;
+}
+#late
+{
+	font-size:40px;
+	padding:40px 0px 10px 55px;
+	color:green;
+	
+}
+
+.recip
+{
+	height:300px;
+	width:200px;
+	border-radius:10px;
+}
+.recip:hover
+{
+	box-shadow:1px 1px 10px black;
+	border-radius:20px ;
+	cursor:pointer;
+	background:green;
+}
+.recipes
+{
+	display:flex;
+	justify-content:space-evenly;
+	padding:20px;
+}
+.yesh1
+{
+	font-size:20px;
+	font-weight:bold;
+	padding-top:3px;
+}
+.more
+{
+	margin:auto;
+	background:brown;
+	border-radius:7px;
+	width:75px;
+	height:35px;
+	cursor:pointer;
+	color:white;
+	justify-content:center;
+	font-size:20px;
+	padding:3;
+}
+
+.fa-plus
+{
+	
+	border:solid white 2px;
+	border-radius:50%;
+	font-size:15px;
+	margin-left:1px;
+	margin-top:10px;
+}
+.yesh2
+{
+	display:flex;
+	background:#F5f2f0;
+	height:500px;
+	width:100%;
+	position:relative;
+
+}
+.text1
+{
+	font-size:22px;
+	position:absolute;
+	top:50%;
+	left:7%;
+	transform:rotate(90deg);
+	font-family:cursive;
+	
+}
+.pickup
+{
+	position:absolute;
+	top:10%;
+	left:20%
+	
+}
+
+.img
+{
+	height:320px;
+	width:256px;
+	position:absolute;
+	top:25%;
+	left:25%;
+	
+}
+
+.brown
+{
+	background:#50684B;
+	height:200px;
+	width:160px;
+	position:absolute;
+	top:110;
+	left:355;
+	
+}
+
+.green
+{
+	background:#993300;
+	height:200px;
+	width:160px;
+	position:absolute;
+	top:260;
+	left:425;
+}
+
+.lime
+{
+	font-family:cursive;
+	font-size:30px;
+	position:absolute;
+	top:25%;
+	left:40%;
+}
+.para1
+{
+	font-size:20px;
+	margin-top:200px;
+	text-align:center;
+	margin-left:650px;
+	text-align:justify;
+	line-height:30px;
+}
+.learn
+{
+	margin-top:30px;
+	font-size:20px;
+	background:#993300;
+	width:120px;
+	height:25px;
+	text-align:center;
+	border-radius:8px;
+	color:white;
+	position:absolute;
+	right:30%;
+	top:80%;
+	padding:5px;
+	cursor:pointer;
+}
+.img1
+{
+	height:150px;
+	width:220px;
+	border-radius:12px;
+}
+.hi
+{
+	padding-top:30px;
+	padding-left:20px;
+	color:green;
+	font-size:25px;
+}
+.latest
+{
+	display:flex;
+	justify-content:space-evenly;
+	padding-top:10px;
+}
+
+.vid
+{
+	font-size:22px;
+	font-weight:bold;
+}
+.more
+{
+	margin:auto;
+	background:brown;
+	border-radius:9px;
+	width:75px;
+	height:35px;
+	cursor:pointer;
+	color:white;
+	justify-content:center;
+	font-size:20px;
+	padding:3;
+	margin-top:50px;
+}
+
+.more:hover
+{
+	background:;
+}
+.img1:hover
+{
+	
+	box-shadow:1px 1px 10px black;
+	border-radius:20px ;
+	cursor:pointer;
+	background:green;
+}
+.yesh2
+{
+	display:flex;
+	background:#F5f2f0;
+	height:550px;
+	width:100%;
+	position:relative;
+}
+.text2
+{
+	font-size:25px;
+	position:absolute;
+	top:50%;
+	left:7%;
+	transform:rotate(90deg);
+	font-family:cursive;
+	
+}
+h5
+{
+	position:absolute;
+	top:10%;
+	left:20%;
+font-size:40px;
+color:green;
+}
+
+.img
+{
+	height:320px;
+	width:256px;
+	position:absolute;
+	top:25%;
+	left:20%;
+	
+}
+
+.brown
+{
+	background:#50684B;
+	height:200px;
+	width:160px;
+	position:absolute;
+	top:122;
+	left:279;
+	
+}
+
+.green
+{
+	background:#993300;
+	height:200px;
+	width:160px;
+	position:absolute;
+	top:272;
+	left:404;
+}
+
+.lime1
+{
+	font-family:corotis;
+	font-size:35px;
+	position:absolute;
+	top:25%;
+	left:43%;
+}
+.para1
+{
+	font-size:20px;
+	margin-top:200px;
+	text-align:center;
+	margin-left:620px;
+	text-align:justify;
+	line-height:34px;
+}
+
+.mail
+{
+	width:300px;
+	height:30px;
+	margin:20px 0px 20px 0px;
+	border-color:green;
+	border-style:solid;
+	padding:10px;
+}
+.mail:focus
+{
+	box-shadow:1px 2px 10px black;
+	
+}
+.check
+{
+ position:absolute;
+ width:25px;
+ height:25px;
+
+}
+.sign
+{
+	background:brown;
+	color:white;
+	font-size:20px;
+	width:170px;
+	padding:5px;
+	text-align:center;
+    border-radius:10px;
+	margin:30px 0px 0px 25% ;
+	
+}
+.sign:hover
+{
+	border-radius:30px;
+	cursor:pointer;
+}
+b
+{
+	padding-left:40px;
+	color:green;
+}
+.imga
+{
+	height:180px;
+	width:270px;
+	border-radius:12px;
+	
+}
+.hey
+{
+	padding-top:40px;
+	padding-left:20px;
+	color:green;
+	font-size:25px;
+	
+}
+.lat
+{
+	display:flex;
+	justify-content:space-evenly;
+	
+	
+	padding:5px;
+	
+}
+
+.tex
+{
+	font-size:25px;
+	font-weight:bold;
+	
+}
+.more2
+{
+	margin:auto;
+	background:brown;
+	border-radius:9px;
+	width:75px;
+	height:35px;
+	cursor:pointer;
+	color:white;
+	justify-content:center;
+	font-size:20px;
+	padding:3;
+	margin-top:50px;
+}
+
+.more2:hover
+{
+	background:;
+}
+.imga:hover
+{
+	
+	box-shadow:1px 1px 10px black;
+	border-radius:20px ;
+	cursor:pointer;
+	background:green;
+}
+.ico
+{
+	background:#F4F0EC;
+	height:200px;
+	margin-top:150px;
+	margin-bottom:0px;
+	display:flex;
+	justify-content:space-evenly;
+	padding:50px;
+	word-spacing:30px;
+}
+.ico1
+{
+	padding:70px 0px 0px 0px;
+}
+.iconimage
+{
+	padding-top:50px;
+	
+}
+.hp
+{
+	color :green;
+	font-size:23px;
+	padding:70px 0px 0px 0px;
+}
+.hp:hover
+{
+	color :red;
+	
+}
+.fa-youtube
+{
+	color:green;
+}
+.fa-instagram
+{
+	color:green;
+}
+.fa-facebook
+{
+	color:green;
+	
+}
+.fa-pinterest-p
+{
+	color:green;
+	
+}
+.fa-tiktok
+{
+	color:green;
+	
+}
+
+
+
+.fa-youtube:hover
+{
+	cursor:pointer;
+	color:red;
+	font-size:50px;
+}
+.fa-instagram:hover
+{
+	cursor:pointer;
+	color:red;
+	font-size:50px;
+}
+.fa-facebook:hover
+{
+	cursor:pointer;
+	color:blue;
+	font-size:50px;
+}
+.fa-pinterest-p:hover
+{
+	cursor:pointer;
+	color:red;
+	font-size:50px;
+}
+.fa-tiktok:hover
+{
+	cursor:pointer;
+	color:red;
+	font-size:50px;
+}

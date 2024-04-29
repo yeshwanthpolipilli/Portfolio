@@ -1,0 +1,454 @@
+@media only screen and (min-width:360px) and (max-width:640px)
+{
+    *
+    {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+   .navbar_snippets
+   {
+   display: none;
+   }
+   h1
+{
+    font-size: 20px;
+    margin-top: 25px;
+    padding-left: 10px;
+    font-family: sans-serif;
+}
+   .sign
+{
+   display: none;
+}
+.get
+{
+    display: none;
+}
+.banner>img
+{
+    width: 30px;
+    height: 30px;
+    margin-top: 20px;
+    margin-left: 25px;
+}
+.banner{
+    display: flex;
+    margin-left: 10px;
+    overflow: hidden;
+   
+}
+.fa-solid.fa-bars
+ {
+	display: block;
+    position: absolute;
+    right: 5%;
+    top: 3.5%;
+
+}
+
+.fa-solid
+{
+    font-size:25px;
+    color: black;
+    cursor: pointer;
+}
+.white
+{
+    background: white;
+    width: 100%;
+    height: 2000px;
+    position:relative;
+    overflow: hidden;
+}
+h2{
+    position: absolute;
+    font-size: 50px;
+    left: 10%;
+    top: 5%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.para2
+{
+    position: absolute;
+    top:10%;
+    left:12%;
+    font-size: 26px;
+    width: 300px;
+}
+.cont
+{
+    width: 320px;
+    height: 250px;
+    border-radius: 50px;
+    position: absolute;
+    top: 22%;
+    left: 5%;
+}
+.para6{
+    position: absolute;
+    top:38%;
+    left:10%;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h6{
+    position: absolute;
+    top:42%;
+    left:10%;
+    font-size: 12px;
+    font-family: arial;
+}
+.nam
+    {
+        width:280px;
+        height: 40px;
+        position: absolute;
+        top:43%;
+        border: 1px solid #b3b3b3;
+        left: 10%;
+        border-radius: 5px;
+        box-shadow: 1px 1px 1px black;
+        font-size: 20px;
+    }
+    h7
+    {
+        position: absolute;
+        top:47%;
+        left:10%;
+        font-size: 14px;
+        font-family: arial;
+    }
+.nam1
+    {
+        
+        width:280px;
+        height: 40px;
+        position: absolute;
+        top:48%;
+        border: 1px solid #b3b3b3;
+        left: 10%;
+        border-radius: 5px;
+        box-shadow: 1px 1px 1px black;
+        font-size: 20px;
+    }
+    h8
+    {
+        position: absolute;
+        top:52%;
+        left:10%;
+        font-size: 16px;
+        font-family: arial;
+    }
+    .text
+    {
+        
+        width:280px;
+        height: 60px;
+        position: absolute;
+        top:54%;
+        border: 1px solid black;
+        left: 10%;
+        border-radius: 10px;
+        box-shadow: 1px 1px 1px black;
+    }
+    h9
+    {
+       background: black;
+       width: 130px;
+       height: 50px;
+       border-radius: 10px; 
+       position: absolute;
+       top:59%;
+       left: 10%;
+    color: white;
+    text-align: center;
+    padding: 12px;
+    font-size: 20px;
+    font-family: arial;
+    }
+    h3
+    {
+        position: absolute;
+        top:65%;
+        left: 10%;
+        font-size: 35px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .para3
+    {
+        width: 200px;
+        font-size: 18px;
+     position: absolute;
+     top:68%;
+     left: 10%;
+     line-height: 30px;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+
+    }
+
+    h4{
+        position: absolute;
+        top:85%;
+        left: 10%;
+        font-size: 35px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .para5
+    {
+        width: 200px;
+        font-size: 18px;
+     position: absolute;
+     top:88%;
+     left: 10%;
+     line-height: 30px;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+
+    .yesh6
+    {
+         background: white;
+        width: 100%;
+        height: 1000px;
+        position: relative;
+        overflow: hidden;
+    }
+    h14
+    {
+        position: absolute;
+        width: 320px;
+        top:6%;
+        left: 5%;
+        font-size: 24px;
+        color: black;
+        font-family: arial;
+    }
+    .small
+    {
+        width: 320px;
+        position: absolute;
+        top:15%;
+        left:15%;
+        font-size: 16px;
+        color: #a0a0a3;
+    }
+    .logos
+    {
+    position: absolute;
+    top:25%;
+    left:10%;
+    width: 30px;
+    height: 30px;
+    }
+    h16
+    {
+        position: absolute;
+        top:25.5%;
+        left:20%;
+        
+        color: black;
+        font-size: 20px;
+        font-family: arial;
+    }
+    h17
+    {
+        position: absolute;
+        top:33%;
+        left:8%;
+        font-size: 25px;
+        color: blue;
+        font-size: 30px;
+        font-family: arial;
+    }
+    h18
+    {
+        position: absolute;
+        top:38%;
+        left:10%;
+        
+        color: black;
+        font-size: 25px;
+        font-family: poppins;
+    }
+    h19
+    {
+        position: absolute;
+        top:42%;
+        left:10%;
+       
+        color: black;
+        font-size: 25px;
+        font-family: poppins;
+    }
+    h20
+    {
+        position: absolute;
+        top:46%;
+        left:10%;
+    
+        color: black;
+        font-size: 25px;
+        font-family: poppins;
+    }
+    h21
+    {
+        position: absolute;
+        top:33%;
+        left:55%;
+        
+        color: blue;
+        font-size: 30px;
+        font-family: arial;
+    }
+    h22
+    {
+        position: absolute;
+        top:38%;
+        left:58%;
+        
+        color: black;
+        font-size: 25px;
+        font-family: poppins;
+    }
+    h23
+    {
+        position: absolute;
+        top:42%;
+        left:58%;
+       
+        color: black;
+        font-size: 25px;
+        font-family: poppins;
+    }
+    h24
+    {
+        position: absolute;
+        top:46%;
+        left:58%;
+    
+        color: black;
+        font-size: 22px;
+        font-family: poppins;
+    }
+    h25
+    {
+        position: absolute;
+        top:55%;
+        left:8%;
+        font-size: 25px;
+        color: blue;
+        font-size: 30px;
+        font-family: arial;
+    }
+    h26
+    {
+        position: absolute;
+        top:60%;
+        left:10%;
+        
+        color: black;
+        font-size: 25px;
+        font-family: poppins;
+    }
+    h27
+    {
+        position: absolute;
+        top:64%;
+        left:10%;
+       
+        color: black;
+        font-size: 25px;
+        font-family: poppins;
+    }
+    h28
+    {
+        position: absolute;
+        top:68%;
+        left:10%;
+    
+        color: black;
+        font-size: 25px;
+        font-family: poppins;
+    }
+    
+    .last
+    {
+        width: 280px;
+        position: absolute;
+        top:90%;
+        left:10%;
+        color: black;
+        font-size: 20px;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    .fa-instagram
+    {
+    position: absolute;
+    top:80%;
+    left:10%;
+    font-size: 40px;
+    }
+    .fa-youtube
+    {
+        position: absolute;
+    top:80%;
+    left:30%;
+    font-size: 40px;
+    }
+    .fa-github
+    {
+        position: absolute;
+    top:80%;
+    left:50%;
+    font-size: 40px;
+    }
+    .fa-twitter
+    {
+        position: absolute;
+    top:80%;
+    left:70%;
+    font-size: 40px;
+    }
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
